@@ -51,7 +51,7 @@ class Resume extends Component {
                  schoolName="Northwestern University"
                  schoolDescription="Acquired a Bachelor of Science in Chemical Engineering at NU"
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid #833ab4'}} />
 
               <h2>Experience</h2>
 
@@ -84,7 +84,7 @@ class Resume extends Component {
                 jobName="Primary Instructor"
                 jobDescription="Administered individual instruction to each student in math and reading subjects. Developed lesson plans, study materials, and goals for each student"
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #833ab4'}} />
               <h2>Skills</h2>
               <Skills
                 skill="JavaScript"

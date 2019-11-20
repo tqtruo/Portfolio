@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button}/* CardMenu, IconButton */ from 'react-mdl';
 
 
 class Projects extends Component {
@@ -14,67 +14,67 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Trainer TD</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
+            <CardTitle style={{justifyContent: 'center', color: '#fff', height: '176px', background: 'url(TrainerTD.PNG) center / cover'}} >Trainer TD</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            A desktop strategy game inspired by Nintendo’s Pokémon and the tower defense genre. Built in Unity using C#. Contact me for the access code for the live demo.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/Trainer-TD/Trainer-TD">GitHub</Button>
+              <Button colored href="http://www.trainertd.com/">Live Demo</Button>
+              <Button colored href="https://www.youtube.com/watch?v=qxX6N64qoO4">Video</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
-            </CardMenu>
+            </CardMenu> */}
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Grace Shopper</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
+            <CardTitle style={{justifyContent: 'center', color: '#000', height: '176px', background: 'url(BeerHopper.PNG) center / cover'}} >Grace Shopper</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            A Node.js interactive e-commerce web application selling beverages. Utilized React/Redux to create front-end components connecting to Sequelize models in a PostgreSQL database through Express
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/Team-ForLoops/beerHopper">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored href="https://beerhopperfullstack.herokuapp.com/">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
-            </CardMenu>
+            </CardMenu> */}
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Fake Space Invaders</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
+            <CardTitle style={{justifyContent: 'center', color: '#fff', height: '176px', background: 'url(FakeSpaceInvaders.PNG) center / cover'}} >Fake Space Invaders</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            A space invadersesque 2D HTML game made with the Phaser.js game framework and Node.js
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/tqtruo/SpaceInvaders">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored href = "https://www.youtube.com/watch?v=eQmMPtOqXsw">Video</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
-            </CardMenu>
+            </CardMenu> */}
           </Card>
 
           {/* Project 4 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Weather Forecaster</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
+            <CardTitle style={{justifyContent: 'center', color: '#000', height: '176px', background: 'url(WeatherForecaster.PNG) center / cover'}} >Weather Forecaster</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            A chrome extension displaying a 7-day weather forecast in a user’s current location.Utilized JavaScript and manipulated the DOM to implement the Dark Sky API for weather data
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/tqtruo/weather-extension">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
-            </CardMenu>
+            </CardMenu> */}
           </Card>
         </div>
 
