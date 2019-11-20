@@ -10,11 +10,11 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Theodore Truong</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="https://tinyurl.com/ttprofilepic"
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A Full stack software engineer experienced in developing front and back-end web applications. A detail-oriented individual that can effectively communicate and work well in a team-based environment as well as independently. Eager to step into the industry and apply what I've learned and acquire more experience. </p>
 
           </Cell>
           <Cell col={6}>
@@ -23,33 +23,42 @@ class Contact extends Component {
 
             <div className="contact-list">
               <List>
+                
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
+                   1 (224) 616-7970
+                  </ListItemContent>
+                </ListItem>
+
+
+                <ListItem>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-envelope " style={{fontSize: '56px'}} aria-hidden="true"/>
+                  tqtruo@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
+                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                    linkedin.com/in/theodoretruong
                   </ListItemContent>
                 </ListItem>
-
-                <ListItem>
+                
+              {/*   <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                  <i className="fa fa-fax" aria-hidden="true"/>
+                  (123) 456-7890
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
 
-                <ListItem>
+                {/* <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     MySkypeID
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
 
 
               </List>
