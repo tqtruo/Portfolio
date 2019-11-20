@@ -58,6 +58,7 @@ class Resume extends Component {
             <Experience
               startYear={2017}
               endYear={2019}
+              company="Cardinal Intellectual Property"
               jobName="Patent Analyst"
               jobDescription="Utilized technical background to understand and review each invention or patent disclosure. Delivered written analytical reports on the patentability of the applications to the USPTO"
               />
@@ -65,38 +66,62 @@ class Resume extends Component {
               <Experience
                 startYear={2016}
                 endYear={2016}
+                company="Underwriters Laboratories"
                 jobName="Sustainable Products Research Intern"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobDescription="Researched aspects of the life cycle environmental impact of cleaning products. Revised and consolidated criteria into a comprehensive product safety standard document"
                 />
               <Experience
                 startYear={2015}
                 endYear={2015}
+                company="Underwriters Laboratories"
                 jobName="Laboratory Technician Intern"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobDescription="Examined blueprints, schematics, and wiring diagrams to build industrial scale concrete samples. Executed flammability tests and compiled test data for quality feedback reports"
                 />
               <Experience
                 startYear={2011}
                 endYear={2017}
+                company="Kumon"
                 jobName="Primary Instructor"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobDescription="Administered individual instruction to each student in math and reading subjects. Developed lesson plans, study materials, and goals for each student"
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
+                skill="JavaScript"
                 progress={100}
                 />
+                  <Skills
+                    skill="ReactJS"
+                    progress={60}
+                          />
                 <Skills
-                      skill="React"
-                      progress={60}
-                      />
-                <Skills
-                  skill="HTML/CSS"
+                  skill="NodeJS"
                   progress={50}
                   />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
+                <Skills
+                skill="ReduxJS"
+                progress={50}
+                />
+              <Skills
+                skill="HTML/CSS"
+                  progress={45}
+                  />
+                   <Skills
+                    skill="C#"
+                    progress={20}
+                    />
+                    <Skills
+                    skill="Java"
+                    progress={10}
+                    />
+                    
+                    <Skills
+                    skill="Unity"
+                    progress={10}
+                    />
+                    <Skills
+                    skill="SQL"
+                    progress={10}
                     />
           </Cell>
         </Grid>
