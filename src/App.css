@@ -115,5 +115,5 @@
 	margin: 20px;
 }
 .logo > a > img:hover {
-	-webkit-filter: brightness(200%);
+	-webkit-filter: brightness(175%);
 }

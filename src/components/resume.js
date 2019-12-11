@@ -116,7 +116,14 @@ class Resume extends Component {
 								<img src="PostgreSQL.png" alt="" />
 							</a>
 							<a href="https://unity.com/" target="_blank" rel="noopener noreferrer">
-								<img src="Unity.png" alt="" />
+								<img src="Unity1.png" alt="" />
+							</a>
+							<a
+								href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img src="CSharp.png" alt="" />
 							</a>
 						</div>
 						{/* <Skills
