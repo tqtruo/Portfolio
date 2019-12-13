@@ -85,7 +85,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored href="https://github.com/tqtruo/RecipeRummager" target="_blank">GitHub</Button>
-              {/* <Button colored>CodePen</Button> */}
               {<Button colored href="https://reciperummager.herokuapp.com" target="_blank">Live Demo</Button>}
             </CardActions>
             {/* <CardMenu style={{color: '#fff'}}>
