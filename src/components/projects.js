@@ -20,9 +20,9 @@ class Projects extends Component {
             A desktop strategy game inspired by Nintendo’s Pokémon and the tower defense genre. Built in Unity using C#. Contact me for the access code for the live demo.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Trainer-TD/Trainer-TD">GitHub</Button>
-              <Button colored href="http://www.trainertd.com/">Live Demo</Button>
-              <Button colored href="https://www.youtube.com/watch?v=qxX6N64qoO4">Video</Button>
+              <Button colored href="https://github.com/Trainer-TD/Trainer-TD" target="_blank">GitHub</Button>
+              <Button colored href="http://www.trainertd.com/" target="_blank">Live Demo</Button>
+              <Button colored href="https://www.youtube.com/watch?v=qxX6N64qoO4" target="_blank">Video</Button>
             </CardActions>
             {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -36,9 +36,9 @@ class Projects extends Component {
             A Node.js interactive e-commerce web application selling beverages. Utilized React/Redux to create front-end components connecting to Sequelize models in a PostgreSQL database through Express
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Team-ForLoops/beerHopper">GitHub</Button>
+              <Button colored href="https://github.com/Team-ForLoops/beerHopper" target="_blank">GitHub</Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored href="https://beerhopperfullstack.herokuapp.com/">Live Demo</Button>
+              <Button colored href="https://beerhopperfullstack.herokuapp.com/" target="_blank">Live Demo</Button>
             </CardActions>
             {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -52,9 +52,9 @@ class Projects extends Component {
             A space invadersesque 2D HTML game made with the Phaser.js game framework and Node.js
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/tqtruo/SpaceInvaders">GitHub</Button>
+              <Button colored href="https://github.com/tqtruo/SpaceInvaders" target="_blank">GitHub</Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored href = "https://www.youtube.com/watch?v=eQmMPtOqXsw">Video</Button>
+              <Button colored href = "https://www.youtube.com/watch?v=eQmMPtOqXsw" target="_blank">Video</Button>
             </CardActions>
             {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -65,12 +65,28 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
             <CardTitle style={{justifyContent: 'center', color: '#000', height: '176px', background: 'url(WeatherForecaster.PNG) center / cover'}} >Weather Forecaster</CardTitle>
             <CardText>
-            A chrome extension displaying a 7-day weather forecast in a user’s current location.Utilized JavaScript and manipulated the DOM to implement the Dark Sky API for weather data
+            A chrome extension displaying a 7-day weather forecast in a user’s current location. Utilized JavaScript and manipulated the DOM to implement the Dark Sky API for weather data
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/tqtruo/weather-extension">GitHub</Button>
+              <Button colored href="https://github.com/tqtruo/weather-extension" target="_blank">GitHub</Button>
               {/* <Button colored>CodePen</Button> */}
               {/* <Button colored>Live Demo</Button> */}
+            </CardActions>
+            {/* <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu> */}
+          </Card>
+
+          {/* Project 5 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '10px'}}>
+            <CardTitle style={{justifyContent: 'center', color: '#fff', height: '176px', textShadow: "1px 1px black", background: 'url(RecipeRummager.PNG) center / cover'}} >Recipe Rummager</CardTitle>
+            <CardText>
+            A web application for finding recipes and viewing their nutritional info and ingredients. Built using JavaScript, React, HTML, CSS, and the Edamam recipe API
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://github.com/tqtruo/RecipeRummager" target="_blank">GitHub</Button>
+              {/* <Button colored>CodePen</Button> */}
+              {<Button colored href="https://reciperummager.herokuapp.com" target="_blank">Live Demo</Button>}
             </CardActions>
             {/* <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
