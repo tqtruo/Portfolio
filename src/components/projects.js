@@ -218,7 +218,7 @@ class Projects extends Component {
 						<CardTitle
 							style={{
 								justifyContent: "center",
-								color: "#fff",
+								color: "#000",
 								height: "176px",
 								textShadow: "1px 1px black",
 								background: "url(AlgoVisual.PNG) center / cover"
@@ -228,7 +228,7 @@ class Projects extends Component {
 						</CardTitle>
 						<CardText>
 							A web application for visualizing different algorithms, such as
-							sorting, searching, etc. Currently a work in progress, currently
+							sorting, searching, etc. Currently a work in progress. As of now,
 							implements: merge sort, bubble sort, selection sort, insertion
 							sort. Built using JavaScript, React, Redux, HTML, and CSS
 						</CardText>
